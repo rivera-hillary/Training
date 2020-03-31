@@ -1,0 +1,222 @@
+.body {
+    margin: 0;
+    font-family: serif;
+    font-size: large;
+    border: 4px solid purple;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.outer {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.page {
+    padding-top: 20px;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 699px;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    width: 960px;
+    height: 50px;
+    border: 4px solid rgb(69, 69, 121);
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.caja {
+    display: flex;
+    border: solid rgb(44, 145, 44) 4px;
+    width: 960px;
+    height: 479px;
+    margin-bottom: 20px;
+}
+.caja1 {
+    display: flex;
+    border: solid rgb(139, 227, 8);
+    width: 450px;
+    height: 429px;
+    margin: 20px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.caja1-2 {
+    display: flex;
+    width: 450px;
+    height: 410px;
+    border: solid black 4px;
+    padding: 20px 0 0 0;
+    margin: 20px 20px 0 0;
+    align-items: center;
+    justify-items: center;
+}
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 397px;
+    height: 377px;
+    margin: 0 20px 20px 20px;
+}
+.caja2-1 {
+    display: flex;
+    width: 397px;
+    height: 59px;
+    border: none;
+    background-color: #ff5858;
+    color: #ebfffb;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.caja2-2 {
+    display: flex;
+    width: 405px;
+    height: 261px;
+}
+.caja2-3 {
+    display: flex;
+    border: solid red 4px;
+    width: 188px;
+    height: 261px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.caja2-4 {
+    display: flex;
+    width: 188px;
+    height: 261px;
+    border: solid rgb(222, 118, 222) 4px;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    width: 960px;
+    height: 50px;
+    border: 4px solid rgb(165, 51, 51);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.letra {
+    -webkit-transform: rotate(-90deg);
+}
+@media screen and (max-width:500px){
+    .body, .outer, .container  {
+        width: auto;
+    }
+    .header, .footer {
+        width: 96%;
+    }
+    .caja {
+        width: 96%;
+        flex-direction: column;
+    }
+    .caja1 {
+        width: 89.5%;
+        height: 76%;
+    }
+    .caja1-2 {
+        margin: 0 20px;
+        margin-bottom: 20px;
+        width: 89.5%;
+        height: 73%;
+    }
+    .caja2 {
+        width: 90.5%;
+        text-align: center;
+        height: 100%;
+        margin: 10px 20px;
+    }
+    .caja2-1 {
+        margin: 0 20px;
+        width: 100%;
+    }
+    .caja2-2 {
+        width: 102%;
+        margin: 0 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 70%;
+    }
+    .caja2-3 {
+        width: 98%;
+        margin: 20px 0px 20px 0px;
+    }
+    .caja2-4 {
+        width: 98%;
+        margin: 0;
+    }
+}
+@media screen and (min-width:500px) and (max-width:780px){
+    .body, .outer, .container  {
+        width: auto;
+    }
+    .header, .footer {
+        width: 95%;
+    }
+    .caja {
+        width: 95%;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .caja1 {
+        width: 93.5%;
+        padding: 10px 0;
+        height: 10%;
+    }
+    .caja1-2 {
+        width: 93.5%;
+        margin: 0 20px;
+        height: 72%;
+    }
+    .caja2 {
+        width: 100%;
+        margin-top: 20px;
+        height: 104%;
+    }
+    .caja2-1 {
+        margin: 0 20px;
+        width: 95.5%;
+        height: auto;
+        padding: 10px;
+    }
+    .caja2-2 {
+        width: 100%;
+        margin: 0 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        height: 72%;
+    }
+    .caja2-3 {
+        width: 99%;
+        margin: 20px 0px 20px 0px;
+        height: 107%;
+    }
+    .caja2-4 {
+        width: 99%;
+        margin: 0;
+        height: 107%;
+    }
+}
+@media screen and (min-width:780px) and (max-width:1040px){
+    .body {
+        width: auto;
+    }
+    .outer{
+        display: flex;
+    }
+}
